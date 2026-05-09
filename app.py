@@ -97,9 +97,8 @@ def smart_match():
         "score": best_score
     })
 
-# ---------------- RUN ----------------
-
-    if __name__ == "__main__":
-        import os
-        port = int(os.environ.get("PORT", 8000))
-        app.run(host="0.0.0.0", port=port)
+   # ---------------- RUN ----------------
+if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 8000))
+    app.run(host="0.0.0.0", port=port)
